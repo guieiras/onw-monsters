@@ -23,7 +23,7 @@ export default ({
   },
   everyoneVote: {
     audio: everyoneVote,
-    text: 'Acabou o tempo! 3, 2, 1... Votar!',
+    text: 'Acabou o tempo! 3, 2, 1... Votem!',
   },
   hunterClose: {
     audio: hunterClose,

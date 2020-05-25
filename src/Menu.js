@@ -13,6 +13,8 @@ export default function Menu({ onPlay }) {
         <Card.Header>Duração do dia</Card.Header>
       </Card.Content>
       <Card.Content>
+        <Label as='a' onClick={() => setTime(60)} color={time === 60 ? 'blue' : null}>01:00</Label>
+        <Label as='a' onClick={() => setTime(180)} color={time === 180 ? 'blue' : null}>03:00</Label>
         <Label as='a' onClick={() => setTime(300)} color={time === 300 ? 'blue' : null}>05:00</Label>
         <Label as='a' onClick={() => setTime(450)} color={time === 450 ? 'blue' : null}>07:30</Label>
         <Label as='a' onClick={() => setTime(600)} color={time === 600 ? 'blue' : null}>10:00</Label>

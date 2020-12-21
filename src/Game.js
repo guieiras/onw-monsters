@@ -32,7 +32,7 @@ export default function Game({ audioRef, clock, onFinish }) {
   React.useEffect(() => {
     trail.current = [...Actions()];
     nextAction();
-  }, [clock]);
+  }, [clock]); // eslint-disable-line
 
   return <Grid verticalAlign='middle' columns={2} centered>
     <Grid.Row>

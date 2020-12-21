@@ -22,7 +22,7 @@ export default function Clock({ time, onTimeEnd }) {
         }, 1000);
       }
     }
-  }, [remainingTime]);
+  }, [remainingTime]); // eslint-disable-line
 
   return (
     <Card.Content textAlign="center">

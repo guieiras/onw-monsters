@@ -12,7 +12,7 @@ import witchWake from '../assets/audio/pt-BR/witchwake.mp3';
 import zombieClose from '../assets/audio/pt-BR/zombieclose.mp3';
 import zombieWake from '../assets/audio/pt-BR/zombiewake.mp3';
 
-export default ({
+const actions = {
   everyoneClose: {
     audio: everyoneClose,
     text: 'Todos, fechem os olhos!',
@@ -65,4 +65,6 @@ export default ({
     audio: zombieWake,
     text: 'Zumbi, acorde.',
   }
-});
+};
+
+export default actions;
